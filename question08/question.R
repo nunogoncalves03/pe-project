@@ -14,8 +14,6 @@ for (i in 1:n) {
   sample3 = c(sample3, qnorm(i / (n + 1), mean = 2.3, sd = sqrt(2.4)))
 }
 
-
-
 plot(-40:40, -40:40, type = "l", xlab = "Quantiles", ylab = "Ordered Cauchy distribution sample", xlim=c(-20,20), ylim=c(-40,40), main = "Question 08 Plot")
 
 abline(v = 0, col=rgb(0, 0, 0, alpha=0.2))  # linha x = 0
