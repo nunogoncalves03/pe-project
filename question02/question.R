@@ -9,4 +9,4 @@ trabalho_remunerado = data[data$Ocupação == "Trabalho remunerado ou estudo", ]
 boxplot(cuidados_pessoais, trabalho_remunerado, main = "",
         ylab = "Tempo médio diário (minutos)",
         names = c("Cuidados pessoais", "Trabalho remunerado ou estudo"),
-        col = c("red", "blue"))
+        col = c("#db4861", "#68a4d9"))

@@ -12,7 +12,7 @@ df["gcp"] = (df["gcp"] - mean(df$gcp)) / sd(df$gcp)
 ggplot(df, aes(x=tempo)) +
   geom_line(aes(y = ddesemp, color = "ddesemp")) +
   geom_line(aes(y = gcp, color = "gcp")) +
-  scale_color_manual(values = c("red", "blue"),
+  scale_color_manual(values = c("#68a4d9", "#db4861"),
                      name = "Legenda",
                      labels = c("ddesemp", "gcp")) +
   xlab("Tempo") +

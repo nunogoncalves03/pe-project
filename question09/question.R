@@ -41,6 +41,6 @@ for (size in n) {
 }
 
 plot(n, diffs_avg, type = "p", pch=20,  xlab = "Sample size", ylab = "Absolute difference",
-     main = "First VS Second method", col = "red")
+     main = "First VS Second method", col = "#db4861")
 
-lines(n, diffs_avg, type="l", col="red")
+lines(n, diffs_avg, type="l", col="#db4861")
