@@ -11,13 +11,7 @@ Fx <- function(q) {
 generate_value <- function() {
   val = runif(1, min=0, max=1)
   
-  # se val for <= Fx(0) fica em loop infinito
-  while(val <= Fx(0)) {
-    val = runif(1, min=0, max=1)
-  }
-  
-  x = 1
-  
+  x = 0
   while (val > Fx(x) | val <= Fx(x-1)) {
     x = x + 1
   }
