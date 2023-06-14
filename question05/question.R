@@ -34,4 +34,4 @@ soma = avg + sdev
 above_avg_count = sum(sample > avg)
 above_soma_count = sum(sample > soma)
 
-pp = above_soma_count/above_avg_count # 0.5462
+pp = above_soma_count/above_avg_count # 0.5368
